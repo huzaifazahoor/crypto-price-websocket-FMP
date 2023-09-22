@@ -26,20 +26,20 @@ Before you can use this script, you'll need the following:
 
 2. Install the required Python libraries:
 
-```pip install websocket-client boto3```
+   ```pip install websocket-client boto3```
 
 3. Set up your API key and S3 bucket name as environment variables or replace the default values in the main function:
 
-```api_key = os.getenv("API_KEY")
-ticker = "btcusd"
-s3_bucket = "YOUR_S3_BUCKET_NAME"```
+   ```api_key = os.getenv("API_KEY")
+   ticker = "btcusd"
+   s3_bucket = "YOUR_S3_BUCKET_NAME"```
 
 4. Install the required Python libraries:
 
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
 
 4. Run the script:
 
-```python crypto_price_extractor.py```
+   ```python crypto_price_extractor.py```
 
 The script will connect to the FMP websocket, retrieve real-time data, transform it, and save it to your specified S3 bucket.
