@@ -21,8 +21,10 @@ Before you can use this script, you'll need the following:
 
 1. Clone this repository to your local machine:
 
-   ```git clone https://github.com/yourusername/realtime-crypto-price-extractor.git
-   cd realtime-crypto-price-extractor```
+   ```
+   git clone https://github.com/yourusername/realtime-crypto-price-extractor.git
+   cd realtime-crypto-price-extractor
+   ```
 
 2. Install the required Python libraries:
 
@@ -30,9 +32,11 @@ Before you can use this script, you'll need the following:
 
 3. Set up your API key and S3 bucket name as environment variables or replace the default values in the main function:
 
-   ```api_key = os.getenv("API_KEY")
+   ```
+   api_key = os.getenv("API_KEY")
    ticker = "btcusd"
-   s3_bucket = "YOUR_S3_BUCKET_NAME"```
+   s3_bucket = "YOUR_S3_BUCKET_NAME"
+   ```
 
 4. Install the required Python libraries:
 
